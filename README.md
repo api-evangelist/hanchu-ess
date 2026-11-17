@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Hanchu ESS provides smart energy storage solutions, offering a range of residential and commercial battery products, hybrid inverters, and cloud‑based energy management services. The company focuses on clean, affordable power storage, supporting EV charging, grid‑scale applications, and integrated renewable energy systems. Through its iESS platform, customers can monitor and optimize energy usage via a web portal and mobile app.
+Hanchu ESS provides smart energy storage solutions for residential, commercial, and utility-scale applications. Their product line includes modular battery systems, hybrid inverters, and cloud‑based energy management platforms that help customers store renewable energy, reduce peak demand costs, and ensure reliable backup power. The company emphasizes sustainability, advanced battery technology, and integrated services to support clean energy transition worldwide.
 
-**Areas:** Energy Storage · Residential Storage · Commercial Storage · Utility Storage · EV Charger · Battery Management · Smart Grid
+**Areas:** Company · Energy · Storage · Battery · Renewable · Smart-Grid
 
 ## Hanchu ESS on APIs.io
 
@@ -74,22 +74,28 @@ Everything profiled for Hanchu ESS is published on APIs.io rather than in this r
 
 ### APIs (1)
 
-- [Hanchu ESS API](https://apis.io/apis/hanchu-ess/hanchu-ess-api/) — Hanchu ESS API as documented publicly: 20 operations. Contract generated from the documentation by API Evangelist (2026-11-16); not the provider's own document.
+- [Hanchu ESS API](https://apis.io/apis/hanchu-ess/hanchu-ess-api/) — Hanchu ESS API as documented publicly: 19 operations. Contract generated from the documentation by API Evangelist (2026-11-17); not the provider's own document.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Hanchu Ess Webhooks](https://apis.io/asyncapis/hanchu-ess/hanchu-ess-webhooks/)
+
 #### JSON Schema (6)
 
 The data models the API reads and writes.
 
-- [PostV1DeviceBatteryChargeDischargeRecordsRequest](https://apis.io/schemas/hanchu-ess/hanchu-ess-post-v1-device-battery-charge-discharge-records-request/)
+- [PostV1AccountDetailResponse](https://apis.io/schemas/hanchu-ess/hanchu-ess-post-v1-account-detail-response/)
 - [PostV1DeviceBatteryChargeDischargeRecordsResponse](https://apis.io/schemas/hanchu-ess/hanchu-ess-post-v1-device-battery-charge-discharge-records-response/)
 - [PostV1DeviceInverterHistoricalRequest](https://apis.io/schemas/hanchu-ess/hanchu-ess-post-v1-device-inverter-historical-request/)
+- [PostV1DeviceInverterHistoricalResponse](https://apis.io/schemas/hanchu-ess/hanchu-ess-post-v1-device-inverter-historical-response/)
 - [PostV1OemResubscribeRequest](https://apis.io/schemas/hanchu-ess/hanchu-ess-post-v1-oem-resubscribe-request/)
 - [PostV1OemSubscribeRequest](https://apis.io/schemas/hanchu-ess/hanchu-ess-post-v1-oem-subscribe-request/)
-- [PostV1StationListResponse](https://apis.io/schemas/hanchu-ess/hanchu-ess-post-v1-station-list-response/)
 
 #### JSON-LD (1)
 
@@ -118,22 +124,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [Documentation](https://docs.hanchuess.com/)
 - [Getting started](https://docs.hanchuess.com/home/customer-lifecycle/onboarding)
 - [API reference](https://docs.hanchuess.com/home/api-reference)
+- [Support](https://www.hanchuess.com/contact)
 - [Privacy policy](https://www.hanchuess.com/privacy)
 
 ## API Evangelist rating
 
-**Kin Score 41.3** — developing · rubric 0.28.0 · scored 2026-11-17
+**Kin Score 42.4** — developing · rubric 0.27.0 · scored 2026-11-17
 
 | Facet | Score |
 |---|---|
 | Discoverability | 64.3 |
-| Contract quality | 55.2 |
+| Contract quality | 55.0 |
 | Contract governance | 79.1 |
-| Operational transparency | 0.0 |
-| Developer ergonomics | 50.0 |
-| Access clarity | 8.5 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 10.5 |
 
-**Agent readiness 20.3** — agent-aware
+**Agent readiness 25.3** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -146,9 +153,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Error Semantics | — |
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
-| Event Surface Described | — |
+| Event Surface Described | unknown |
 | Agent Skills | — |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -157,10 +164,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
-| Operation Distinctiveness | distinct |
+| Operation Distinctiveness | na |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 12.3** — Energy & Utilities
+**Regulatory alignment 17.2** — Energy & Utilities
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hanchu-ess/](https://apis.io/providers/hanchu-ess/).
 
